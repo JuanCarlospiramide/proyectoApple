@@ -15,7 +15,7 @@ h3{
     font-size: 28px;
 }
 
-@media all and (min-width: 769px) and (max-width: 1024px){
+@media all and (min-width: 320px) and (max-width: 480px){
     .container h2{
         font-size: 48px; 
     }
@@ -32,3 +32,53 @@ h3{
     }
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.containerPadre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+h1{
+    font-size: 96px;
+    text-align: center;
+}
+@media all  and (max-width:320px) and (max-width:480px){
+    .containerPadre h1{
+        font-size: 48px;
+    }
+    .containerPadre p{
+        font-size: 17px;
+    }
+}
+    
+@media all and (min-width: 769px) and (max-width: 1024px){
+    .containerPadre h1{
+        font-size: 48px; 
+    }
+    .containerPadre p{
+        font-size: 21px;
+    }
+}
+@media all and (min-width: 1025px) and (max-width: 1200px){
+    .containerPadre h1{
+        font-size: 96px; 
+    }
+    .containerPadre p{
+        font-size: 24px;
+    }
+}
+p{
+    font-size: 24px;
+    text-align: center;
+}
