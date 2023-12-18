@@ -42,7 +42,7 @@ a{
     color: black;
 
 }
-.containerPadre{
+.containerTVCasa{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,4 +81,40 @@ h1{
 p{
     font-size: 24px;
     text-align: center;
+}
+.containerProductos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;    
+
+}
+.primeraFila{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+.segundaFila{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+
+}
+.HomePod{
+    background-color: black;
+    color: white;
+
+    
+}
+.HomePodMini{
+    background-color: red;
+    
+}
+.AppleTv{
+    background-color: red;
+    
+}
+.HomeApp{
+    background-color: red;
 }
